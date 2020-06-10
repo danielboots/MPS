@@ -47,7 +47,7 @@ img {
     background-size: cover;
     /*justify-content: center;*/
     align-content: center;
-    height: 80vh;
+    height: 70vh;
     background-attachment: fixed;
     color: #ffffff;
 }
@@ -81,6 +81,10 @@ img {
 
 }
 
+.headermar {
+    padding: 25px;
+}
+
 
 .card-image {
     background: url('../images/studiodesk.jpg');
@@ -100,24 +104,37 @@ img {
 .footer {
     background: #222228; 
     color: #ffffff;
-    align-content: center;
-
+    padding: 25px;
 }
 
-.footer h1 {
+.footer h2 {
 
-    text-align: center;
     font-weight: 500;
+    font-size: 16px;
 }
 
 .footer p {
-    font-weight: 300;
-    text-align: center;
+    font-weight: 400;
+    font-size: 14px;
+    
+    
+}
+
+/* aware needs condensing  */
+.footer ul {
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.footer li {
+    font-weight: 400;
+    font-size: 14px;
+    
 }
 
 .copyright {
-    background-color: #fff;
-   /* color: #333333 */
+   text-align: right;
+   padding: 25px%;
 }
 
 .inline-block {
@@ -139,7 +156,7 @@ img {
 
 }
 
-.workedwith {
+.textalign-center {
     align-content: center;
     text-align: center;
     padding: 5%;
@@ -149,5 +166,15 @@ img {
 .press {
     width: 10%;
     margin: 20px 20px 50px;
+
+}
+
+/* Contact css */
+
+.form-group {
+    margin: 5%
+}
+.form-group h1 p {
+    font-weight: 600;
 
 }
