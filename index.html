@@ -12,15 +12,16 @@
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 	<link rel="stylesheet" href="css/style.css">
 
-</head> 
+</head>
+
 <body>
-  
-	<header class="hero"> 
+
+	<header class="hero">
 		<!--bootstrap toggler navigation (NavBar)-->
 
 		<div class="container-fluid">
 			<nav class="navbar navbar-expand-lg navbar-dark">
-				<a href="home.html" class="navbar-brand">Music Production Service</a> 
+				<a href="home.html" class="navbar-brand">Music Production Service</a>
 
 				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
@@ -41,7 +42,7 @@
 						<li class="nav-item">
 							<a href="contact.html" class="nav-link"> <i class="fa fa-envelope" aria-hidden="true"></i>
 								Contact</a>
-						</li> 
+						</li>
 					</ul>
 				</div>
 			</nav>
@@ -57,93 +58,138 @@
 
 	<!--About Section -->
 
-<div class="container-fluid">
-	<section class="about">
-		<h2>About</h2>
-		<p>Welcome to Music Production Service, An international firm of Music Producers, Mastering Engineers and Remix
-			Teams specialising in all aspects of Music Production Services including : Full track Production / Remixing
-			/ Engineering / Vocal Production / Mastering and PR </p>
-           
-	</section>
-     </div>
+<div class="container-fluid boxmargin ">
+  <div class="row "> 
+    <div class="col-sm">
+       <h2>About</h2>
+       <p>Welcome to Music Production Service, An international firm of Music Producers, Mastering Engineers and
+				Remix
+				Teams specialising in all aspects of Music Production Services including : Full track Production /
+				Remixing
+				/ Engineering / Vocal Production / Mastering and PR </p>
+               <button type="button" class="btn btn-dark "> <i class="fa fa-play" aria-hidden="true"></i>
+ Learn more</button>
+            
+ 
+    </div>
+    <div class="col-sm ">
+    <img class="imagebox" src="images/band.jpg" alt="bandonstage"> 
+     
+    </div>
+    
+  </div>
+</div>
+ 
 
 	<!--Services Section -->
 
-    <div class="container-fluid">
-	<section class="services">
+	<div class="container-fluid separatorblock">
+    <h2>Our Top Services</h2>
+
+    <div class="card-deck">
+  <div class="card">
+    <img class="card-img-top" src="images/Production.jpg" alt="Music Production">
+    <div class="card-body">
+      <h5 class="card-title">Music Production</h5>
+      <p class="card-text">We offer a full music production service, from initial concept to final mixed and mastered track.</p>
+      <button type="button" class="btn btn-outline-dark">Enquire</button>
+      
+    </div>
+  </div> 
+  <div class="card">
+    <img class="card-img-top" src="images/Remix.jpg" alt="Remix">
+    <div class="card-body">
+      <h5 class="card-title">Remix</h5>
+      <p class="card-text">REMIX is perfect for when you already have a great track but you need to attract the attention of a wide range of DJs. </p>
+      <button type="button" class="btn btn-outline-dark">Enquire</button>
+    </div>
+  </div>
+  <div class="card">
+    <img class="card-img-top" src="images/Mixdown.jpg" alt="Mixdown">
+    <div class="card-body">
+      <h5 class="card-title">Mixdown</h5>
+      <p class="card-text">This service allows our clients to take their productions to the next level. </p>
+      <button type="button" class="btn btn-outline-dark">Enquire</button>
+    </div>
+  </div>
+</div>
+
+<div class="btn-spacer"> 
+
+		<button type="button" class="btn btn-dark "> <i class="fa fa-play" aria-hidden="true"></i>
+ Learn more</button>
     
-		<h2>Services</h2>
-        
-	</section>
+	</div>
     </div>
-    <!--Testimonials Section use bootstrap carousel full width -->
+	<!--Testimonials Section use bootstrap carousel full width -->
 
-<div class="container-fluid separatorblock">
-	<section class="testimonials">
-   
-		<h2>Testimonials</h2>
-		
+	<div class="container-fluid">
+		<section class="testimonials">
 
-	</section>
-    </div>
+			<h2>Testimonials</h2>
+
+
+		</section>
+	</div>
 
 	<!--Contact Section -->
 
-    <div class="container-fluid">
-	<section class="Contact">
-		<h2>Contact</h2>
+	<div class="container-fluid">
+		<section class="Contact">
+			<h2>Contact</h2>
 
-		<form>
-			<div class="form-group">
-				<label for="exampleFormControlInput1">Email address</label>
-				<input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+			<form>
+				<div class="form-group">
+					<label for="exampleFormControlInput1">Email address</label>
+					<input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
   </div>
-				<div class="form-group">
-					<label for="exampleFormControlSelect1">Example select</label>
-					<select class="form-control" id="exampleFormControlSelect1">
+					<div class="form-group">
+
+						<label for="exampleFormControlSelect1">Example select</label>
+						<select class="form-control" id="exampleFormControlSelect1">
       <option>1</option>
       <option>2</option>
       <option>3</option>
       <option>4</option>
       <option>5</option>
     </select>
-				</div>
-				<div class="form-group">
-					<label for="exampleFormControlSelect2">Example multiple select</label>
-					<select multiple class="form-control" id="exampleFormControlSelect2">
+					</div>
+					<div class="form-group">
+						<label for="exampleFormControlSelect2">Example multiple select</label>
+						<select multiple class="form-control" id="exampleFormControlSelect2">
       <option>1</option>
       <option>2</option>
       <option>3</option>
       <option>4</option>
       <option>5</option>
     </select>
-				</div>
-				<div class="form-group">
-					<label for="exampleFormControlTextarea1">Example textarea</label>
-					<textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-				</div>
-		</form>
-	</section>
-    </div> 
+					</div>
+					<div class="form-group">
+						<label for="exampleFormControlTextarea1">Example textarea</label>
+						<textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+					</div>
+			</form>
+		</section>
+	</div>
 
 	<!--Footer Section -->
 
-<footer class="container-fluid footer">
-	<div class="row">
-		<div class="col-md-4">
-			<h1>Text</h1>
-			<p>Text info</p>
+	<footer class="container-fluid footer">
+		<div class="row">
+			<div class="col-md-4">
+				<h1>Text</h1>
+				<p>Text info</p>
+			</div>
+			<div class="col-md-4">
+				<h1>Text</h1>
+				<p>Text info</p>
+			</div>
+			<div class="col-md-4">
+				<h1>Text</h1>
+				<p>Text info</p>
+			</div>
 		</div>
-		<div class="col-md-4">
-			<h1>Text</h1>
-			<p>Text info</p>
-		</div>
-		<div class="col-md-4">
-			<h1>Text</h1>
-			<p>Text info</p>
-		</div>
-	</div>
-</footer>
+	</footer>
 
 
 

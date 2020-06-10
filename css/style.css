@@ -41,28 +41,25 @@ img {
 /* header - hero section */
 
 .hero {
-    background: url('../images/Stage.jpg');
+    background: url('../images/studiodesk.jpg');
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
-    justify-content: center;
+    /*justify-content: center;*/
     align-content: center;
-    height: 90vh;
+    height: 80vh;
     background-attachment: fixed;
     color: #ffffff;
 }
 
 .hero-text {
-    text-align: center;
+  text-align: center;
   position: absolute;
   top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%); 
+  left: 50%; 
   color: white;
     
-
 }
-
 /* containers and blocks */
 
 .container-fluid {
@@ -73,27 +70,44 @@ img {
     background: #fafafa;
 }
 
+.boxmargin {
+    margin: 20px 10px;
+}
+
+.imagebox {
+    border-radius: 2%;
+    
+}
+
+.btn-spacer {
+    margin-top: 25px;
+    margin-bottom: 25px;
+   /* padding: 10%; */
+}
 
 /* footer css */
 
 .footer {
-    background: #222228;
-    color: #fff;
-    text-align: center;
+    background: #222228; 
+    color: #ffffff;
+    align-content: center;
+
 }
 
 .footer h1 {
+
     text-align: center;
     font-weight: 500;
 }
 
 .footer p {
     font-weight: 300;
+    text-align: center;
 }
 
 .copyright {
     background-color: #fff;
-    color: #333333
+   /* color: #333333 */
 }
 
 .inline-block {
