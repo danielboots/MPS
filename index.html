@@ -9,7 +9,10 @@
 
 	<!--Style Sheets Bootstrap css etc-->
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+	<!-- Addition of MDBootstrap library! Remember to reference in README File.-->
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.0/css/mdb.min.css" rel="stylesheet">
+	<!--added my stylesheet below inorder to overwrite styles if need be-->
 	<link rel="stylesheet" href="css/style.css">
 
 </head>
@@ -58,78 +61,93 @@
 
 	<!--About Section -->
 
-<div class="container-fluid boxmargin ">
-  <div class="row "> 
-    <div class="col-sm">
-       <h2>About</h2>
-       <p>Welcome to Music Production Service, An international firm of Music Producers, Mastering Engineers and
-				Remix
-				Teams specialising in all aspects of Music Production Services including : Full track Production /
-				Remixing
-				/ Engineering / Vocal Production / Mastering and PR </p>
-               <button type="button" class="btn btn-dark "> <i class="fa fa-play" aria-hidden="true"></i>
+	<div class="container-fluid boxmargin ">
+		<div class="row ">
+			<div class="col-sm">
+				<h2>About</h2>
+				<p>Welcome to Music Production Service, An international firm of Music Producers, Mastering
+					Engineers and
+					Remix
+					Teams specialising in all aspects of Music Production Services including : Full track Production /
+					Remixing
+					/ Engineering / Vocal Production / Mastering and PR </p>
+				<button type="button" class="btn btn-dark btn-spacer "> <i class="fa fa-play" aria-hidden="true"></i>
  Learn more</button>
-            
- 
-    </div>
-    <div class="col-sm ">
-    <img class="imagebox" src="images/band.jpg" alt="bandonstage"> 
-     
-    </div>
-    
-  </div>
-</div>
- 
 
-	<!--Services Section -->
 
-	<div class="container-fluid separatorblock">
-    <h2>Our Top Services</h2>
+			</div>
+			<div class="col-sm ">
+				<img class="imagebox" src="images/band.jpg" alt="bandonstage">
 
-    <div class="card-deck">
-  <div class="card">
-    <img class="card-img-top" src="images/Production.jpg" alt="Music Production">
-    <div class="card-body">
-      <h5 class="card-title">Music Production</h5>
-      <p class="card-text">We offer a full music production service, from initial concept to final mixed and mastered track.</p>
-      <button type="button" class="btn btn-outline-dark">Enquire</button>
-      
     </div>
-  </div> 
-  <div class="card">
-    <img class="card-img-top" src="images/Remix.jpg" alt="Remix">
-    <div class="card-body">
-      <h5 class="card-title">Remix</h5>
-      <p class="card-text">REMIX is perfect for when you already have a great track but you need to attract the attention of a wide range of DJs. </p>
-      <button type="button" class="btn btn-outline-dark">Enquire</button>
-    </div>
-  </div>
-  <div class="card">
-    <img class="card-img-top" src="images/Mixdown.jpg" alt="Mixdown">
-    <div class="card-body">
-      <h5 class="card-title">Mixdown</h5>
-      <p class="card-text">This service allows our clients to take their productions to the next level. </p>
-      <button type="button" class="btn btn-outline-dark">Enquire</button>
-    </div>
-  </div>
-</div>
 
-<div class="btn-spacer"> 
+			</div>
+		</div>
 
-		<button type="button" class="btn btn-dark "> <i class="fa fa-play" aria-hidden="true"></i>
+
+		<!--Services Section -->
+
+		<div class="container-fluid separatorblock">
+			<h2>Our Top Services</h2>
+
+			<div class="card-deck">
+				<div class="card">
+					<img class="card-img-top" src="images/Production.jpg" alt="Music Production">
+					<div class="card-body">
+						<h5 class="card-title">Music Production</h5>
+						<p class="card-text">We offer a full music production service, from initial concept to final
+							mixed and mastered track.</p>
+						<button type="button" class="btn btn-outline-dark">Enquire</button>
+
+					</div>
+				</div>
+				<div class="card">
+					<img class="card-img-top" src="images/Remix.jpg" alt="Remix">
+					<div class="card-body">
+						<h5 class="card-title">Remix</h5>
+						<p class="card-text">REMIX is perfect for when you already have a great track but you need to
+							attract the attention of a wide range of DJs. </p>
+						<button type="button" class="btn btn-outline-dark">Enquire</button>
+					</div>
+				</div>
+				<div class="card">
+					<img class="card-img-top" src="images/Mixdown.jpg" alt="Mixdown">
+					<div class="card-body">
+						<h5 class="card-title">Mixdown</h5>
+						<p class="card-text">This service allows our clients to take their productions to the next
+							level. </p> 
+						<button type="button" class="btn btn-outline-dark">Enquire</button>
+					</div>
+				</div>
+			</div>
+
+			<div class="btn-spacer">
+
+				<button type="button" class="btn btn-dark "> <i class="fa fa-play" aria-hidden="true"></i>
  Learn more</button>
-    
-	</div>
-    </div>
-	<!--Testimonials Section use bootstrap carousel full width -->
 
-	<div class="container-fluid">
-		<section class="testimonials">
+			</div>
+		</div>
 
-			<h2>Testimonials</h2>
+		<!-- MDN Fullwidth Image overlay -->
 
 
-		</section>
+
+
+		<!--Social Proof -->
+		<section class="container-fluid workedwith">
+        <h2>Check out just some of the labels we work with</h2>
+			<img class="press" src="images/bmg.png" alt="BMG">
+			<img class="press"src="images/emi.png" alt="EMI">
+			<img class="press"src="images/universal.png" alt="UNIVERSAL">
+			<img class="press" src="images/warner.png" alt="WARNER">
+
+	 </section>
+
+ 
+			<!--End Proof -->
+
+
 	</div>
 
 	<!--Contact Section -->
@@ -201,6 +219,8 @@
 	</script>
 	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
 		integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous">
+	</script>
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.0/js/mdb.min.js">
 	</script>
 </body>
 
