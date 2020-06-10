@@ -81,6 +81,10 @@ img {
 
 }
 
+.headermar {
+    padding: 25px;
+}
+
 
 .card-image {
     background: url('../images/studiodesk.jpg');
@@ -139,7 +143,7 @@ img {
 
 }
 
-.workedwith {
+.textalign-center {
     align-content: center;
     text-align: center;
     padding: 5%;
@@ -149,5 +153,15 @@ img {
 .press {
     width: 10%;
     margin: 20px 20px 50px;
+
+}
+
+/* Contact css */
+
+.form-group {
+    margin: 5%
+}
+.form-group h1 p {
+    font-weight: 600;
 
 }
