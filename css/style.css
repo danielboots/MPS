@@ -31,6 +31,11 @@ img {
 }
 
 
+.fontwhite {
+    color: #ffffff
+}
+
+
 /*navbar rules override bootstrap css placed after bootstrap classes!  hmmm...*/
 
 .navbar {
@@ -50,16 +55,20 @@ img {
     height: 70vh;
     background-attachment: fixed;
     color: #ffffff;
+    position: relative;
 }
 
 .hero-text {
   text-align: center;
   position: absolute;
-  top: 50%;
-  left: 50%; 
+  top: 30%;
+  left: 30%;
+   
   color: white;
     
 }
+
+
 /* containers and blocks */
 
 .container-fluid {
@@ -70,8 +79,17 @@ img {
     background: #fafafa;
 }
 
+.separatorblock-dark {
+    background: #121216;
+}
+
+
 .boxmargin {
     margin: 20px 10px;
+}
+
+.cardpadding {
+    padding: 10%;
 }
 
 .imagebox {
@@ -121,15 +139,22 @@ img {
 }
 
 /* aware needs condensing  */
-.footer ul {
+
+
+.footer ul.li {
     font-weight: 400;
     font-size: 14px;
+    color: #ffffff;
+    
 }
 
-.footer li {
-    font-weight: 400;
-    font-size: 14px;
-    
+.list-inline-item {
+    color: #fafafa;
+}
+
+.hover :hover {
+    color: #fafafa;
+
 }
 
 .copyright {
@@ -144,8 +169,9 @@ img {
 /*testimonials*/ 
 
 .testimonials {
-    padding: 7% 15%;
     text-align: center;
+    color: #ffffff;
+
 }
 
 .testimonial-images {
@@ -154,6 +180,11 @@ img {
     margin: 20px;
 
 
+}
+
+/*carousel controls*/
+.carousel-item {
+padding: 7% 15%;
 }
 
 .textalign-center {
