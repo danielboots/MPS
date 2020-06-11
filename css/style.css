@@ -74,6 +74,10 @@ img {
     margin: 20px 10px;
 }
 
+.cardpadding {
+    padding: 10%;
+}
+
 .imagebox {
     border-radius: 2%;
     height: 80%;
