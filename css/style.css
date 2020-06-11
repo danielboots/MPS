@@ -80,7 +80,7 @@ img {
 }
 
 .separatorblock-dark {
-    background: #121216;
+    background: #222228;
 }
 
 
@@ -122,7 +122,7 @@ img {
 .footer {
     background: #222228; 
     color: #ffffff;
-    padding: 25px;
+    padding: 5% 10%;
 }
 
 .footer h2 {
