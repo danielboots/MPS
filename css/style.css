@@ -58,6 +58,19 @@ img {
     position: relative;
 }
 
+.hero::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(34, 34, 40,0.8);
+
+    
+}
+
+
 .hero-text {
   text-align: center;
   position: absolute;
@@ -70,6 +83,30 @@ img {
 
 
 /* containers and blocks */
+
+.overlay {
+background: url('../images/studiodesk.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    /*justify-content: center;*/
+    align-content: center;
+    background-attachment: fixed;
+    color: #ffffff;
+    position: relative;
+
+}
+
+.overlay::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(34, 34, 40,0.8);
+}
+
 
 .container-fluid {
     padding: 1% 10%;
@@ -120,7 +157,7 @@ img {
 /* footer css */
 
 .footer {
-    background: #222228; 
+    
     color: #ffffff;
     padding: 5% 10%;
 }
@@ -158,8 +195,9 @@ img {
 }
 
 .copyright {
-   text-align: right;
+   text-align: center;
    padding: 25px%;
+   margin-top: 10px;
 }
 
 .inline-block {
