@@ -172,7 +172,7 @@ img {
 
 /*carousel controls*/
 .carousel-item {
-  padding: 7% 15%;
+  padding: 1% 15%;
 }
 
 .textalign-center {
@@ -200,7 +200,7 @@ img {
 
 .footer {
   color: #ffffff;
-  padding: 5% 10%;
+  padding: 5% 20%;
 }
 
 .footer h2 {
