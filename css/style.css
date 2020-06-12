@@ -2,6 +2,11 @@
 
 /* Default styling initialise --- Setting Border box initial font families etc */
 
+html {
+  scroll-behavior: smooth;
+}
+
+
 * {
   box-sizing: border-box;
 }
@@ -77,6 +82,7 @@ img {
 }
 
 /* containers and blocks */
+
 
 .overlay {
   background: url("../images/band.jpg");
