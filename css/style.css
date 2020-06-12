@@ -40,6 +40,17 @@ img {
   color: #ffffff;
 }
 
+.navbar-brand img {
+    width: 15%;
+    height: 15%;
+    align-content: left;
+
+}
+.footer-logo img {
+    width: 15%;
+    height: 15%;
+}
+
 /*navbar rules override bootstrap css placed after bootstrap classes!  hmmm...*/
 
 .navbar {
