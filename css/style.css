@@ -87,7 +87,8 @@ img {
   text-align: center;
   position: absolute;
   top: 30%;
-  left: 30%;
+  left: 10%;
+  right: 10%; 
 
   color: white;
 }
@@ -118,7 +119,7 @@ img {
 }
 
 .container-fluid {
-  padding: 1% 10%;
+  /* padding: 1% 10%; */
 }
 
 .separatorblock {
@@ -182,7 +183,7 @@ img {
 }
 
 .testimonial-images {
-  width: 15%;
+  width: 50px;
   border-radius: 100%;
   margin: 20px;
 }
@@ -192,6 +193,13 @@ img {
   padding: 1% 15%;
 }
 
+.carousel-item  h2 {
+  font-size: 18px;
+}
+
+
+
+
 .textalign-center {
   align-content: center;
   text-align: center;
@@ -200,7 +208,7 @@ img {
 }
 
 .press {
-  width: 10%;
+  width: 100px;
   margin: 20px 20px 50px;
 }
 
