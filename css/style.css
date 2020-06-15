@@ -247,3 +247,16 @@ img {
   font-size: 12px;
   color: #d3d3d3;
 }
+
+
+
+
+/* media queries for responsive design cleanup */
+
+/* General - Body */
+
+@media all and (max-width: 768px) {
+    body {
+        text-align: center;
+    }
+}
