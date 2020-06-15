@@ -19,33 +19,41 @@
 	<header class="hero">
 		<!--bootstrap toggler navigation (NavBar)-->
 
-		<div class="container-fluid">
-			<nav class="navbar navbar-expand-lg navbar-dark">
+		<nav class="navbar navbar-expand-lg navbar-dark">
+
+			<!-- tutor aid in aligning logo correctly 
+
 				<a href="index.html" class="navbar-brand"><img src="images/mpslogo.png" alt="logo"></a>
 
-				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler2" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                -->
+
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler2" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
-				<div class="collapse navbar-collapse" id="navbarToggler2">
-					<ul class="navbar-nav ml-auto">
-						<li class="nav-item">
-							<a href="index.html" class="nav-link"> <i class="fa fa-home" aria-hidden="true"></i> Home</a>
-						</li>
-						<li class="nav-item">
-							<a href="about.html" class="nav-link"> <i class="fa fa-info" aria-hidden="true"></i>
-								About</a>
-						</li>
-						<li class="nav-item">
-							<a href="services.html" class="nav-link"> <i class="fa fa-cogs" aria-hidden="true"></i>
-								Services</a>
-						</li>
-						<li class="nav-item">
-						<a href="contact.html" class="nav-link"> <i class="fa fa-envelope" aria-hidden="true"></i>
-								Contact</a> 
-						</li>
-					</ul>
-				</div>
-			</nav>
+			<div class="collapse navbar-collapse" id="navbarToggler2">
+				<ul class="navbar-nav ml-auto">
+					<li class="nav-item">
+						<a href="index.html" class="nav-link"> <i class="fa fa-home" aria-hidden="true"></i>
+							Home</a>
+					</li>
+					<li class="nav-item">
+						<a href="about.html" class="nav-link"> <i class="fa fa-info" aria-hidden="true"></i>
+							About</a>
+					</li>
+					<li class="nav-item">
+						<a href="services.html" class="nav-link"> <i class="fa fa-cogs" aria-hidden="true"></i>
+							Services</a>
+					</li>
+					<li class="nav-item">
+						<a href="contact.html" class="nav-link">
+							<i class="fa fa-envelope" aria-hidden="true"></i>
+							Contact</a>
+					</li>
+				</ul>
+			</div>
+		</nav>
+
+		<div class="container-fluid">
 
 			<!--Hero Section -->
 			<div class="hero-text">
@@ -60,45 +68,37 @@
 
 	<div class="container-fluid boxmargin cardpadding">
 		<div class="row ">
-			<div class="col-sm">
-				<h2>About</h2>
+			<div class="col-md-6 col-sm-12">
+				<h2 class="h2-header-text">About</h2>
 				<p>Welcome to Music Production Service, An international firm of Music Producers, Mastering
 					Engineers and
 					Remix
 					Teams specialising in all aspects of Music Production Services including : Full track Production /
 					Remixing
 					/ Engineering / Vocal Production / Mastering and PR </p>
-			
+				<a href="about.html" class="btn btn-dark btn-spacer"><i class="fa fa-play" aria-hidden="true"></i> Find
+					out more</a>
+
+
+
 			</div>
-			<div class="col-sm ">
+			<div class="col-md-6 col-sm-12">
 				<iframe width="70%" height="315" src="https://www.youtube.com/embed/twyPPjEyd7o?controls=0"
 					frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
 					allowfullscreen></iframe>
-			</div>
-		</div>
-	</div>
-    
-    <!--Services Section -->
 
-	<div class="container-fluid separatorblock">
-		<div class="row">
-			<h2>Built on a passion for Music</h2>
-            <p>Music Production Service has been around for some 10 years now and has become a name within the music community as a company who delivers. Owned by Dan Thomas Number one Billboard producer and remixer. Music Production service has become synonumus with artists who need results. 
-            Dans has developed a highly successful career in music and is respected world wide as someone who is as knowledgeable infront of his favourite DAW as he is in the professional business side of the industry.</p>
-            <p>Having forged a successful career in the music industry himself, Dan now employs and looks after acts around the world and is now focusing on bringing his expertise into music technology through his technology brand VUHZE. 
-            VUHZE currently is developing software applications for musicians with Dan actively learning new software development languages, watch this space.</p>
-            <p>Its Dans aim to bring all of this together in order to help the next generation of musicians follow their passion of working in the music business.</p>
-			
 			</div>
+
 		</div>
 	</div>
 
-<!--Testimonials Section -->
+	
+	<!--Testimonials Section -->
 
 	<div class="container-fluid overlay textalign-center">
 		<div class="row">
 			<div class="col">
-				<h2>Testimonials</h2>
+				<h2 class="h2-header-text">Testimonials</h2>
 				<p>What people are saying about us</p>
 			</div>
 		</div>
@@ -139,7 +139,7 @@
 
 	<!--Labels we work with Section -->
 	<div class="container-fluid textalign-center">
-		<h2>Check out just some of the labels we work with</h2>
+		<h2 class="h2-header-text">Check out just some of the labels we work with</h2>
 		<img class="press" src="images/bmg.png" alt="BMG">
 		<img class="press"src="images/emi.png" alt="EMI">
 		<img class="press"src="images/universal.png" alt="UNIVERSAL">
@@ -147,8 +147,7 @@
 </div>
 		<!-- END labels we work with Section -->
 
-
-
+		
 	<!--Footer Section -->
 
 
@@ -164,25 +163,24 @@
 			<div class="col">
 				<h2>Links</h2>
 				<ul>
-					<li class="hover"><a href="index.html"><i class="fas fa-home" aria-hidden="true"></i>
+					<li class="hover footerlink"><a href="index.html"><i class="fas fa-home" aria-hidden="true"></i>
 							Home</a>
 					</li>
-					<li class="hover"><a href="about.html"
-							><i class="fas fa-info-circle" aria-hidden="true"></i>
+					<li class="hover footerlink"><a
+							href="about.html"><i class="fas fa-info-circle" aria-hidden="true"></i>
 							About</a>
 					</li>
-					<li class="hover"><a href="services.html"
-							><i class="fas fa-cogs" aria-hidden="true"></i>
+					<li class="hover footerlink"><a href="services.html"><i class="fas fa-cogs" aria-hidden="true"></i>
 							Services</a>
 					</li>
-                    <li class="hover"><a href="contact.html"
-							><i class="fas fa-envelope" aria-hidden="true"></i>
+					<li class="hover footerlink"><a
+							href="contact.html"><i class="fas fa-envelope" aria-hidden="true"></i>
 							Contact</a>
 					</li>
-					
+
 				</ul>
 			</div>
-			<div class="col-md-4">
+			<div class="col-md-4 ">
 				<h2>Social</h2>
 				<ul class="list-inline-item hover">
 					<li class="list-inline-item">
@@ -197,19 +195,19 @@
 							<i class="fab fa-twitter" aria-hidden="true"></i>
 							<span class="sr-only">Twitter</span>
 						</a>
-					</li> 
+					</li>
 					<li class="list-inline-item hover">
 						<a href="https://www.linkedin.com/in/hydrasound/" target="_blank">
 							<i class="fab fa-linkedin" aria-hidden="true"></i>
 							<span class="sr-only">LinkedIn</span>
 						</a>
 
-					</li> 
-					
+					</li>
+
 					<li class="list-inline-item hover">
 						<a href="https://www.instagram.com/danthomaslive/" target="_blank">
 							<i class="fab fa-instagram" aria-hidden="true"></i>
-					 		<span class="sr-only">Instagram</span>
+							<span class="sr-only">Instagram</span>
 						</a>
 					</li>
 
@@ -221,20 +219,18 @@
 						</a>
 					</li>
 				</ul>
+
 			</div>
-			<div>
-			</div>
-		</div>
 
 
 
 	</footer>
-    
+
 	<div class="container-fluid copyright">
 		<div class="row">
 			<div class="col">
 				<p">&copy;2020 MPS is part of <b>VUHZE</b> technologies - All rights Reserved.</p>
-                
+
 
 			</div>
 		</div>
