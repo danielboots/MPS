@@ -40,23 +40,18 @@ img {
   color: #ffffff;
 }
 
-.navbar-brand img {
-    width: 15%;
-    height: 15%;
-    align-content: left;
-
-}
-.footer-logo img {
-    width: 15%;
-    height: 15%;
-}
-
 /*navbar rules override bootstrap css placed after bootstrap classes!  hmmm...*/
 
 .navbar {
   padding: 10px;
   font-weight: 400;
+  /* align-content: right; */
+  text-align: right;
 }
+
+/* .navbar-brand img {
+    width: 15%;
+    height: 15%; */
 
 /* header - hero section */
 
@@ -80,7 +75,7 @@ img {
   left: 0;
   width: 100%;
   height: 100%;
-  background: rgba(34, 34, 40, 0.8);
+  background: 
 }
 
 .hero-text {
@@ -91,6 +86,14 @@ img {
   right: 10%; 
 
   color: white;
+}
+
+/* Titles and headers */
+
+.h2-header-text {
+    text-align: center;
+    font-size: 30px;
+
 }
 
 /* containers and blocks */
@@ -120,6 +123,7 @@ img {
 
 .container-fluid {
   /* padding: 1% 10%; */
+  margin: auto;
 }
 
 .separatorblock {
@@ -239,6 +243,13 @@ img {
   color: #ffffff;
 }
 
+/* Footer links from stack overflow code */
+
+.footerlink {
+  color: #fff;
+}
+
+
 .copyright {
   text-align: center;
   padding: 15px;
@@ -258,5 +269,17 @@ img {
 @media all and (max-width: 768px) {
     body {
         text-align: center;
+        margin: auto;
     }
+
+    .footer {
+        align-content: center;
+        text-align: left;
+    }
+
+    .h2-header-text {
+    text-align: center;
+    font-size: 26px;
+
+}
 }
