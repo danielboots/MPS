@@ -104,6 +104,15 @@ img {
 
 }
 
+.idnav-item {
+    font-weight: 500;
+}
+.idnav-item:hover{
+    /* background-color: rgba(34, 34, 40, 0.9);
+    color: #ffffff; */
+    text-decoration: underline;
+}
+
 /* containers and blocks */
 
 
