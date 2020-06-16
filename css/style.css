@@ -104,6 +104,11 @@ img {
 
 }
 
+.L-h2 {
+    font-weight: 200;
+    font-size: 35px;
+}
+
 .idnav-item {
     font-weight: 500;
 }
