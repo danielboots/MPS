@@ -2,9 +2,9 @@
 
 /* Default styling initialise --- Setting Border box initial font families etc */
 
-html {
+/* html {
   scroll-behavior: smooth;
-}
+} */
 
 
 * {
@@ -12,8 +12,8 @@ html {
 }
 body {
   font-family: "Poppins", sans-serif;
-  background: #ffffff;
-  color: #333333;
+  /* background: #ffffff; */
+  /* color: #333333; */
   line-height: 1.6;
 }
 
@@ -64,13 +64,14 @@ img {
 /* header - hero section */
 
 .hero {
-  background: url("../images/studiodesk.jpg");
+  background: url("../images/studiodesk_overlay.jpg");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
   /*justify-content: center;*/
-  align-content: center;
-  height: 45vh;
+  /* align-content: center; */
+  margin: auto;
+  height: 500px;
   background-attachment: fixed;
   color: #ffffff;
   position: relative;
@@ -83,7 +84,7 @@ img {
   left: 0;
   width: 100%;
   height: 100%;
-  background: rgba(34, 34, 40, 0.65)
+  /* background: rgba(34, 34, 40, 0.65) */
 }
 
 .hero-text {
@@ -122,12 +123,13 @@ img {
 
 
 .overlay {
-  background: url("../images/band.jpg");
+  background: url("../images/band_overlay.jpg");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
   /*justify-content: center;*/
-  align-content: center;
+  /* align-content: center; */
+  margin: auto;
   background-attachment: fixed;
   color: #ffffff;
   position: relative;
@@ -140,7 +142,7 @@ img {
   left: 0;
   width: 100%;
   height: 100%;
-  background: rgba(34, 34, 40, 0.9);
+  /* background: rgba(34, 34, 40, 0.9); */
 }
 
 .container-fluid {
@@ -164,11 +166,11 @@ img {
   padding: 5%;
 }
 
-.imagebox {
+/* .imagebox {
   border-radius: 2%;
   height: 80%;
   width: 80%;
-}
+} */
 
 .headermar {
   padding: 25px;
@@ -187,12 +189,12 @@ img {
   /* padding: 10%; */
 }
 
-.list-inline-item {
-  color: #fafafa;
-}
+ /* .list-inline-item {
+  color: #fafafa; 
+}  */
 
 .hover :hover {
-  color: #fafafa;
+  color: #ffffff;
 }
 
 
@@ -208,7 +210,9 @@ img {
   color: #ffffff;
 }
 
-.testimonial-images {
+/* testimonial images comes up as error empty string in validator... this is incorrect im using it for testimonial section. */
+
+.testimonial-images{
   width: 50px;
   border-radius: 100%;
   margin: 20px;
@@ -227,7 +231,8 @@ img {
 
 
 .textalign-center {
-  align-content: center;
+  /* align-content: center; */
+  /* margin: auto; */
   text-align: center;
   padding: 5%;
   display: inline-block;
@@ -250,7 +255,7 @@ img {
 /* footer css */
 
 .footer {
-  color: #ffffff;
+  /* color: #ffffff; */
   padding: 5% 20%;
 }
 
@@ -262,13 +267,13 @@ img {
 .footer p {
   font-weight: 400;
   font-size: 14px;
-  color: #ffffff;
+  /* color: #ffffff; */
 }
 
 /* Footer links from stack overflow code */
 
 .footerlink {
-  color: #fff;
+  /* color: #fff; */
 }
 
 
@@ -295,7 +300,8 @@ img {
     }
 
     .footer {
-        align-content: center;
+        /* align-content: center; */
+        margin: auto;
         text-align: left;
     }
 
