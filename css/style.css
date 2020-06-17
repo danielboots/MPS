@@ -203,7 +203,7 @@ img {
   display: inline;
 }
 
-/*testimonials*/
+/*testimonials*/ 
 
 .testimonials {
   text-align: center;
@@ -212,9 +212,9 @@ img {
 
 /* testimonial images comes up as error empty string in validator... this is incorrect im using it for testimonial section. */
 
-.testimonial-images{
+.testimonial-images {
   width: 50px;
-  border-radius: 100%;
+  border-radius: 50px;
   margin: 20px;
 }
 
