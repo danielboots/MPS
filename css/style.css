@@ -160,6 +160,10 @@ h2 {
   background: #222228;
 } */
 
+.itemcenter {
+    align-content: center;
+}
+
 .boxmargin {
   margin: 20px 10px;
 }
@@ -289,15 +293,14 @@ h2 {
     }
 
     .footer {
-        /* align-content: center; */
+        align-content: center;
         margin: auto;
         text-align: left;
     }
 
     .h2-header-text {
-    text-align: center;
+    /* text-align: center; */
     font-size: 26px;
-    
-
 }
+
 }
