@@ -26,7 +26,7 @@ a {
 h1 {
     font-size: 55px;
     font-weight: 600;
-    letter-spacing: -1px;
+    letter-spacing: -3px;
 }
 
 h2 {
@@ -147,6 +147,13 @@ h2 {
   padding: 15px;
 }
 
+
+.bg-brand li {
+    font-size: 20px;
+    font-weight: 500;
+    /* letter-spacing: -1px; */
+}
+
 /* header - hero section */
 
 .hero {
@@ -187,6 +194,7 @@ h2 {
 .h2-header-text {
   text-align: center;
   font-size: 30px;
+  letter-spacing: -1px;
 }
 /* Mentor suggestion - Justify Text css */
 .justify {
@@ -275,6 +283,12 @@ h2 {
 .spacer-box {
   margin-top: 25px;
   margin-bottom: 25px;
+}
+.quicknav {
+  /* margin-top: 25px;
+  margin-bottom: 25px; */
+  padding: 10px;
+
 }
 
 .cardpadding {
