@@ -231,6 +231,29 @@ h2 {
   background: #24252bcf;
 }
 
+.overlay-white {
+  background: url("../images/vbill1.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  margin: auto;
+  background-attachment: fixed;
+  /* color: #ffffff; */
+  position: relative;
+}
+
+.overlay-white::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  /* change RGBA to HEX Alpha 'Mentor Suggestion' */
+  background: #FFFFFFFC;
+}
+
+
 .container-fluid {
   /* padding: 1% 10%; */
   margin: auto;
@@ -247,10 +270,12 @@ h2 {
 .itemcenter {
   align-content: center;
 }
-/* 
-.boxmargin {
-  margin: 20px 10px;
-} */
+
+
+.spacer-box {
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
 
 .cardpadding {
   padding: 5%;
