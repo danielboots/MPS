@@ -422,3 +422,14 @@ h2 {
     padding: 10px;
   }
 }
+
+h1 {
+    font-size: 40px;
+    font-weight: 600;
+    letter-spacing: -1px;
+}
+
+/* h2 {
+  font-weight: 600;
+    letter-spacing: -1px;
+} */
