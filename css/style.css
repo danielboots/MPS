@@ -23,9 +23,15 @@ a {
   text-decoration: none;
 }
 
-h1,
+h1 {
+    font-size: 55px;
+    font-weight: 600;
+    letter-spacing: -1px;
+}
+
 h2 {
   font-weight: 600;
+    letter-spacing: -1px;
 }
 
 /* Css Animations - Animista.net */
