@@ -154,6 +154,18 @@ h2 {
     /* letter-spacing: -1px; */
 }
 
+.navbtn {
+    background: #ffffff;
+    /* font-weight: 700; */
+    margin: 15px 0;
+    color: #24252b;
+} 
+
+.form-control {
+    color:  #24252b;
+}
+
+
 /* header - hero section */
 
 .hero {

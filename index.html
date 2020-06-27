@@ -14,14 +14,14 @@
 
 </head>
 
-<body>
+<body>   
 	<header class="hero">  
 		<!--bootstrap toggler navigation (NavBar)-->
 
 		<nav class="navbar navbar-expand-lg navbar-dark">
 			<a href="index.html" class="navbar-brand"><img class="brandlogo" src="images/mpslogo.png" alt="logo"></a>
 
-
+ 
 				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler2" aria-controls="navbarToggler2" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
@@ -34,7 +34,7 @@
 						<li class="nav-item">
 							<a href="about.html" class="nav-link"> <i class="fa fa-info" aria-hidden="true"></i>
 								About</a>
-						</li>
+						</li> 
 						<li class="nav-item">
 							<a href="services.html" class="nav-link"> <i class="fa fa-cogs" aria-hidden="true"></i>
 								Services</a>
@@ -45,6 +45,63 @@
 								Contact</a>
 						</li>
 					</ul>
+
+                    <!-- Large modal -->
+<button type="button" class="btn btn-light btn-spacer" data-toggle="modal" data-target=".bd-example-modal-lg">Enquire</button>
+
+<div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <!-- form inside of modal -->
+
+
+<div class="container-fluid cardpadding">
+<div class="col">
+<div class="row"></div> 
+
+<h2 class="h2-header-text">Quick Enquiries</h2>
+					<form>
+						<div class="form-group">
+							<label for="name">Name</label>
+							<input type="text" class="form-control" id="name" required >
+							<label for="emailaddress">Email address</label>
+							<input type="email" class="form-control" id="emailaddress" placeholder="name@example.com" required>
+  </div>
+							<div class="form-group">
+								<label for="enquire">Service Enquire</label>
+								<select class="form-control" id="enquire">
+      <option>Music Production</option>
+      <option>Remix Service</option>
+      <option>Mixing Services</option>
+      <option>Ghost Production</option> 
+      <option>Full Artist Development and Consultancy.</option>
+    </select>
+							</div>
+
+							<div class="form-group">
+								<label for="messagedata">Message</label>
+								<textarea class="form-control" id="messagedata" rows="3"></textarea>
+							</div>
+
+
+							<button type="submit" class="btn btn-dark " value="Submit"> <i class="fas fa-paper-plane" aria-hidden="true"></i>
+ Submit</button>
+					</form>
+                    </div>
+</div>
+
+     
+    </div>
+  </div>
+</div>
+</div>
+
+
+ <!-- End form inside of modal -->
+
+
+
+
 				</div>
 		</nav>
 
