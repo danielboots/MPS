@@ -161,8 +161,14 @@ h2 {
     color: #24252b;
 } 
 
-.form-control {
-    color:  #24252b;
+
+.Modalnav {
+    text-align: center;
+}
+
+.modalnavstyle {
+    font-weight: 600;
+    text-align: center;
 }
 
 
@@ -176,7 +182,7 @@ h2 {
   margin: auto;
   height: 500px;
   background-attachment: fixed;
-  color: #ffffff;
+  /* color: #ffffff; */
   position: relative;
 }
 
