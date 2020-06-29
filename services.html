@@ -18,42 +18,90 @@
 		<!--bootstrap toggler navigation (NavBar)-->
 
 		<nav class="navbar navbar-expand-lg navbar-dark">
-			<a href="index.html" class="navbar-brand"><img class="brandlogo" src="images/mpslogo.png" alt="logo"
-        /></a>
+			<a href="index.html" class="navbar-brand"><img class="brandlogo" src="images/mpslogo.png" alt="logo"></a>
 
-				<button
-          class="navbar-toggler"
-          type="button"
-          data-toggle="collapse"
-          data-target="#navbarToggler2"
-          aria-controls="navbarToggler2"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
+
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler2" aria-controls="navbarToggler2" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
 				<div class="collapse navbar-collapse" id="navbarToggler2">
-			 		<ul class="navbar-nav ml-auto">
+					<ul class="navbar-nav ml-auto">
 						<li class="nav-item">
-			 	 			<a href="index.html" class="nav-link">
-								<i class="fa fa-home" aria-hidden="true"></i> Home</a>
-						</li>
-				  		<li class="nav-item">
-							<a href="about.html" class="nav-link">
-								<i class="fa fa-info" aria-hidden="true"></i> About</a>
+							<a href="index.html" class="nav-link"> <i class="fa fa-home" aria-hidden="true"></i>
+								Home</a>
 						</li>
 						<li class="nav-item">
-							<a href="services.html" class="nav-link">
-								<i class="fa fa-cogs" aria-hidden="true"></i> Services</a>
-				 		</li>
+							<a href="about.html" class="nav-link"> <i class="fa fa-info" aria-hidden="true"></i>
+								About</a>
+						</li>
+						<li class="nav-item">
+							<a href="services.html" class="nav-link"> <i class="fa fa-cogs" aria-hidden="true"></i>
+								Services</a>
+						</li>
 						<li class="nav-item">
 							<a href="contact.html" class="nav-link">
 								<i class="fa fa-envelope" aria-hidden="true"></i>
-				 				Contact</a>
-				 		</li>
+								Contact</a>
+						</li>
 					</ul>
+
+					<!-- Large modal -->
+					<button type="button" class="btn btn-light btn-spacer" data-toggle="modal" data-target=".bd-example-modal-lg">  <i class="fas fa-paper-plane" aria-hidden="true"></i> Enquire</button>
+
+					<div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog"
+						aria-labelledby="myLargeModalLabel" aria-hidden="true">
+						<div class="modal-dialog modal-lg">
+							<div class="modal-content">
+								<!-- form inside of modal -->
+
+
+								<div class="container-fluid cardpadding">
+									<div class="col">
+										<div class="row"></div>
+
+										<h2 class="Modalnav">Quick Enquiries</h2>
+										<form class="modalnavstyle">
+											<div class="form-group">
+												<label for="name">Name</label>
+												<input type="text" class="form-control" id="name" required >
+												<label for="emailaddress">Email address</label>
+												<input type="email" class="form-control" id="emailaddress" placeholder="name@example.com" required>
+  </div>
+												<div class="form-group">
+													<label for="enquire">Service Enquire</label>
+													<select class="form-control" id="enquire">
+      <option>Music Production</option>
+      <option>Remix Service</option>
+      <option>Mixing Services</option>
+      <option>Ghost Production</option> 
+      <option>Full Artist Development and Consultancy.</option>
+    </select>
+												</div>
+
+												<div class="form-group">
+													<label for="messagedata">Message</label>
+													<textarea class="form-control" id="messagedata" rows="3"></textarea>
+												</div>
+
+
+												<button type="submit" class="btn btn-dark " value="Submit"> <i class="fas fa-paper-plane" aria-hidden="true"></i>
+ Submit</button>
+										</form>
+									</div>
+								</div>
+
+
+							</div>
+						</div>
+					</div>
 				</div>
-		</nav>    
+
+
+				<!-- End form inside of modal -->
+
+		</nav>
+
+		<!--bootstrap toggler navigation (NavBar) END-->
 
 		<div class="container-fluid">
 			<!--Hero Section -->
@@ -66,28 +114,28 @@
 
 	<!-- menu quick nav -->
 
-    <div class="separatorblock">
-<nav class="navbar bg-brand justify-content-center"> 
-				<ul class="nav quicknav">
-					<li class="nav-item idnav-item ">
-						<a class="nav-link active" href="#top">Top</a>
-					</li>
-					<li class="nav-item idnav-item">
-						<a class="nav-link" href="#production">Production</a>
-					</li>
-					<li class="nav-item idnav-item">
-						<a class="nav-link" href="#consult">Consultancy / Distribution</a>
-					</li>
-				</ul>
-  </div>
-  </div>
-</nav>
+	<div class="separatorblock">
+		<nav class="navbar bg-brand justify-content-center">
+			<ul class="nav quicknav">
+				<li class="nav-item idnav-item ">
+					<a class="nav-link active" href="#top">Top</a>
+				</li>
+				<li class="nav-item idnav-item">
+					<a class="nav-link" href="#production">Production</a>
+				</li>
+				<li class="nav-item idnav-item">
+					<a class="nav-link" href="#consult">Consultancy / Distribution</a>
+				</li>
+			</ul>
+	</div>
+	</div>
+	</nav>
 
 
 	<div class="container-fluid separatorblock">
 		<div class="row">
 			<div class="col">
-				
+
 			</div>
 		</div>
 	</div>
@@ -215,67 +263,69 @@
 					</div>
 				</div>
 			</div>
-		</div> 
+		</div>
 	</div>
 
-<!-- Adapted jumbotron to fit web theme, thus using container instead of jumbotron but keeping jumbotron styling. -->
+	<!-- Adapted jumbotron to fit web theme, thus using container instead of jumbotron but keeping jumbotron styling. -->
 
-    <div class="container-fluid cardpadding textalign-center">
-  <div class="container">
-    <h1 class="display-4">Enquire today</h1>
-    <p class="lead">Click here to use our quick enquiry form and we will be intouch. We look forward to kickstarting your next project.</p>
+	<div class="container-fluid cardpadding textalign-center">
+		<div class="container">
+			<h1 class="display-4">Enquire today</h1>
+			<p class="lead">Click here to use our quick enquiry form and we will be intouch. We look forward to
+				kickstarting your next project.</p>
+		</div>
+		<!-- Large modal -->
+		<button type="button" class="btn btn-dark btn-spacer" data-toggle="modal" data-target=".bd-example-modal-lg">Enquire</button>
+
+		<div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel"
+			aria-hidden="true">
+			<div class="modal-dialog modal-lg">
+				<div class="modal-content">
+					<!-- form inside of modal -->
+
+
+					<div class="container-fluid cardpadding">
+						<div class="col">
+							<div class="row"></div>
+
+							<h2 class="h2-header-text">Quick Enquiries</h2>
+							<form>
+								<div class="form-group">
+									<label for="name">Name</label>
+									<input type="text" class="form-control" id="name" required >
+									<label for="emailaddress">Email address</label>
+									<input type="email" class="form-control" id="emailaddress" placeholder="name@example.com" required>
   </div>
-  <!-- Large modal -->
-<button type="button" class="btn btn-dark btn-spacer" data-toggle="modal" data-target=".bd-example-modal-lg">Enquire</button>
-
-<div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
-  <div class="modal-dialog modal-lg">
-    <div class="modal-content">
-      <!-- form inside of modal -->
-
-
-<div class="container-fluid cardpadding">
-<div class="col">
-<div class="row"></div> 
-
-<h2 class="h2-header-text">Quick Enquiries</h2>
-					<form>
-						<div class="form-group">
-							<label for="name">Name</label>
-							<input type="text" class="form-control" id="name" required >
-							<label for="emailaddress">Email address</label>
-							<input type="email" class="form-control" id="emailaddress" placeholder="name@example.com" required>
-  </div>
-							<div class="form-group">
-								<label for="enquire">Service Enquire</label>
-								<select class="form-control" id="enquire">
+									<div class="form-group">
+										<label for="enquire">Service Enquire</label>
+										<select class="form-control" id="enquire">
       <option>Music Production</option>
       <option>Remix Service</option>
       <option>Mixing Services</option>
       <option>Ghost Production</option> 
       <option>Full Artist Development and Consultancy.</option>
     </select>
-							</div>
+									</div>
 
-							<div class="form-group">
-								<label for="messagedata">Message</label>
-								<textarea class="form-control" id="messagedata" rows="3"></textarea>
-							</div>
+									<div class="form-group">
+										<label for="messagedata">Message</label>
+										<textarea class="form-control" id="messagedata" rows="3"></textarea>
+									</div>
 
 
-							<button type="submit" class="btn btn-dark " value="Submit"> <i class="fas fa-paper-plane" aria-hidden="true"></i>
+									<button type="submit" class="btn btn-dark " value="Submit"> <i class="fas fa-paper-plane" aria-hidden="true"></i>
  Submit</button>
-					</form>
-                    </div>
-</div>
+							</form>
+						</div>
+					</div>
 
-     
-    </div>
-  </div>
-</div>
-</div>
 
- <!-- End form inside of modal -->
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- End form inside of modal -->
 
 
 
