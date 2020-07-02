@@ -198,16 +198,10 @@ Follow these steps in order to then launch the project using Github pages to be 
 From the "Source" option, chose "Master Branch" from the presented options.
 The page will refresh and you will receive a notification saying. " _**Your site is published at: [https://danielboots.github.io/MPS/](https://danielboots.github.io/MPS/)**_"
 
-
-
-
 ___
 
 
 
 
-
-
-
-## **Credits acknowledgements**
+## **Credits Acknowledgements and References.**
 ___
