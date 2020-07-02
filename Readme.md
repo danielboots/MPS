@@ -50,6 +50,16 @@ ___
 
 ## **UX:**
 ___
+I have carried out a full UXD report as this is a functioning business already operating and 
+UX has never been addressed it would be a good time as ever to carry one out. The full report can be found here: **[UXD Report](/assets/UXD-MPS.pdf):**
+
+For your reference i have also provided a general overiew of my analysis. 
+
+
+### **Strategy plane: The Initial idea.**
+___
+The strategy plane or initial idea for this project centres around coupling a rebuild of a current website using the latest technologies I have learned to also satisfy my user centric front end design milestone project. 
+Primarily I am aiming to tie in real life applications and not 'concepts' with all of my projects so that I have to address all issues and strategy from a real world stand point.
 
 
 ## **Features:**
