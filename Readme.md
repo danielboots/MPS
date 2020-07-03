@@ -56,7 +56,7 @@ UX has never been addressed it would be a good time as ever to carry one out. Th
 For your reference i have also provided a general overiew of my analysis. 
 
 
-## **Strategy plane: The Initial idea.**
+## 💡 **Strategy plane: The Initial idea.**
 ___
 The strategy plane or initial idea for this project centres around coupling a rebuild of a current website using the latest technologies I have learned to also satisfy my user centric front end design milestone project. 
 The business is entirely online and is concerned with music production services. From Mixing, mastering, track production, consulting etc with the primary aim of the website to display that information and get the potential client to contact me directly to discuss their needs further.
@@ -77,7 +77,7 @@ realise we are encouraging getting in touch with us.
 #### **strategy plane continued in full lengh analysis .pdf**
 
 
-## **Scope Plane - requirements and functional specifcation**
+## 🧰 **Scope Plane - requirements and functional specifcation**
 ___
 ### **What users and stakeholders - Say they need**
 
@@ -100,7 +100,7 @@ ___
 #### **Scope plane continued in full lengh analysis .pdf**
 
 
-## **Structure: How we present information:**
+## 🏗️ **Structure: How we present information:**
 ___
 
 The web application will consist of a typical navigation and structure which will conform to web best practices. By this we would expect the navigation menu items to be located to the top right hand corner of the web app. To the left we will employ a Navigation bar logo which doubles as a main Home or index.html link.
@@ -133,7 +133,7 @@ it plays once on page load and is a fade animation, which I feel adds a subtle b
 #### **structure plane continued in full lengh analysis .pdf**
 
 
-## **Skeleton Plane – Interface design, navigation design and giving form to function:**
+## ✏️ **Skeleton Plane – Interface design, navigation design and giving form to function:**
 ___
 
 * As with every project which is to be taken in to production it was essential to frstly wireframe the project. This would allow me to test out diferent ideas layouts, navigation and presentation which is expected when visiting this type of website. I developed the wireframes using the Balsamiq software which allowed me to produce low fdelity mockups of the fnished web application without the need for coding it frst. This saves on production time and allows us to have a 'map' of how to fnally code the app.
@@ -164,7 +164,7 @@ Navigation has been assembled in order of priority from left to right and all li
 Furthermore I found no need for pagination to display data and also provided menu items and buttons with relevant font awesome icons to aid in web application learning to the end user. Data is presented the same throughout the web app alongside colours, fonts and branding all aiming to allow the end user to learn the web app easily and enjoy using it.
 
 
-### **Surface plane cont:**
+### 🚀 **Surface plane:**
 Using all the planes above and the data presentation and all the research carried out I was able to present all of this with my project.
 I hope you enjoy browsing my web app and I look forward to developing it further.
 In ending this UXD analysis and a quote I feel summarises this whole process I will leave you with this.
@@ -245,7 +245,7 @@ I opened the dev tools inside of Chrome and adjusted the screen size and made th
 One other major factor i came across is when using `.container-fluid` my content was as expected at full width across the screen, which for some sections i liked but on bigger screen resolutions i found for UX purposes i needed to set a max width so that the content didnt spread across the page. I found this looked sloppy and not good in terms of design. I tested this too out with dev tools to create a `.container-max` rule which for large screen resolutions the content was displayed better.
 
 
-## **User Experience testing:**
+## 🧪 **User Experience testing:**
 
 As this website is aimed at getting clients to interact with the site through booking or enquiring about a service i had to ensure that in my testing i adequately tested the UX and that it was simple enough for the user to "learn" how to use the site and follow industry standards and user expectations. 
 
