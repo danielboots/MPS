@@ -1,12 +1,12 @@
-# **Milestone Project 1**  - User Centric Frontend Development.
+# **Milestone Project 1**  - User Centric Frontend Development. 
 
-## **Music Production Service** - _Music Consultancy and Service Business_
+## 🎵 **Music Production Service** - _Music Consultancy and Service Business_
 
 ![MPS logo and strap line ](/images/mpslogostrap.png)
-
+visit the deployed website here: ****[MPS Website on Github Pages](https://danielboots.github.io/MPS/):**
 
 ---
-## **About the project:**
+## 📓 **About the project:**
 
 **Music Production Service** is my own business which i run successfully in the music industry. 
 I decided to approach rebuilding the website using the skills i have learned so far from the first modules of the **'Full Stack Developer Course'** from **Code Institute**.
@@ -19,7 +19,7 @@ It should have a a professional look about it and also is not overly complicated
 As a business owner my end goal is to convert visitors to the site to customers not only that but to capture leads through contact forms and relevant _call to actions_ such as **newsletter signup forms**.
 
 
-## **Technologies Used:**
+## 💻️ **Technologies Used:**
 ___
 
 * **[HTML](https://developer.mozilla.org/en-US/docs/Web/HTML):** - Is the main language used in this project which allowed me to correctly structure the website, whereby using best practices to use semantic tags where appropriate.
@@ -48,7 +48,7 @@ ___
 
 
 
-## **UX:** 
+## 🧑‍🎨 **UX:** 
 ___
 I have carried out a full UXD report as this is a functioning business already operating and 
 UX has never been addressed it would be a good time as ever to carry one out. The full report can be found here: **[UXD Report](/assets/UXD-MPS.pdf):**
@@ -175,12 +175,28 @@ Brian O'Grady - Code Institute
 
 ___
 
-## **Features:**
+## 📦️ **Features:**
 ___
 
+* The web app is totally mobile responsive with a collapsible toggler navigation. 
+* The site has features such as Youtube and Soundcloud embeded into it.
+* I used a parallax style Hero and separator sections for modern display of content. 
+* Menu items highlight on mouseover.
+* The carousel has before and next and previous buttons so that users can choose to read or go back to different testimonials.
+* The site utilises modals for forms so users can quickly get in touch with the site owner.
+* The Logo position left always takes the user back to the Home page.
+* Google Maps used so that users can see the business location.
+* Social media icons are active and link to relative external platforms.
+* Expected use of font awesome icons to assist in users learning of the site.
+* Navigation button modal - to increase conversions. 
+* Use of animation for hero text - minimal use of animation but effective for a pleasureable experience on page load.
+* Use of Category ID nav on services page, allows users to quickly find the section of services they require. 
+* Footer features on every page with infomation bar, nav links and social links easily accessible.
+* Navigation is structured from level of importance left to right. 
+* Services section utilises bootstrap cards which display image and content relevant to the user is looking for.
 
 
-## **Testing:**
+## 🧪 **Testing:**
 ___
 
 Testing was an integral part of the design and build process, responsiveness is cruicial to the success of any online website so a number of steps were employed to ensure that the site worked across a number of platforms and browsers.
@@ -252,8 +268,10 @@ I had a number of issues which Allen helped me rectify. Notibly the Navbar brand
 ### **Further Testing:**
 
 * The use of validation services for **[Jigsaw CSS Validator](https://jigsaw.w3.org/css-validator/)** and **[HTML Validator](https://validator.w3.org/)** allowed me to modify and fix any errors in my code, one highlight of using these validation services especially in CSS was that i was repeating alot of the same rules for font colour, the validation service allowed me to remove alot of  those rules and condense them into one rule which made a lot more sense.
-
+* I Used the Gitpod built in html testing as seen below![iframe testing error on HTML validator](/images/testing.png) which ended up being a great learning tool spotting errors or unclosed ```<.div>``` etc.
+I should also add that this tool brought to my attention that as i was using multiple forms on pages that my ID's needed to be unique, an issue which was quickly rectified but easily overlooked. 
 * I finally used **[GTMETRIX](https://gtmetrix.com/)** which is used to test page website speeds. All testing came back fine apart from image sizes which scored pretty low. Thus i used the free online **[SQUOOSH](https://squoosh.app/)** to reduce massive image sizes upto 80% of their original file size. This is especially important as large image sizes dramatically increase page loading speeds and leads to a bad UX especially on mobile where heavy loading sites can eat data very quickly. 
+
 
 ### **Testing Issues:**
 
@@ -268,7 +286,7 @@ ___
 
 
 
-## **Deployment:**
+## 🏭️ **Deployment:**
 This project was developed using the Gitpod IDE which integrates seemlessly with Github, Git pod is a cloud IDE so this allowed me to work at home on my imac or out on my imac using only an internet connection and the website **[GITPOD workspaces](https://gitpod.io/workspaces/).** 
 
 The site was developed inside of the Gitpod IDE and connected to my GitHub repository. 
@@ -326,7 +344,7 @@ ___
 
 
 
-## **Credits Acknowledgements and References.**
+## 🤝 **Credits Acknowledgements and References.**
 ___
 
 ### **Content**
@@ -358,6 +376,9 @@ Over the course of my project i used various sources for media -
 
 * **Animation Hero text** - Animista library - https://animista.net/play/text/focus-in/text-focus-in
 
+### **Additional** 
+* **Code Institute Projects** - Previous projects were referenced when needing to job memory on **HTML** structure or some **css** classes.
+* **[Gitpod Emoji Code 0.9.0](https://github.com/idleberg/vscode-emoji-code#readme):** - Allows emoji use in markdown. 
 
 ### **Thanks** 
 
@@ -388,3 +409,7 @@ ul {
   background: #24252bcf;
 }
 ```
+
+_**Finally to my girlfriend who has allowed me to work day and night on this project. Who gave birth to our second child my daughter Abbie only a month ago, who i could thank for not being too bad on night feeds and also my son Alfie who sleeps all night now. If not i think i would have crashed due to lack of sleep.**_ 🥰
+
+
