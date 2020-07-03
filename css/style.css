@@ -355,7 +355,7 @@ h2 {
 /* testimonial images comes up as error empty string in validator... this is incorrect im using it for testimonial section. */
 
 .testdivheight {
-  max-height: 500px;
+  height: 350px !important;
 }
 
 .testimonial-images {
