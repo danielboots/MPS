@@ -379,6 +379,9 @@ Over the course of my project i used various sources for media -
 ### **Additional** 
 * **Code Institute Projects** - Previous projects were referenced when needing to job memory on **HTML** structure or some **css** classes.
 * **[Gitpod Emoji Code 0.9.0](https://github.com/idleberg/vscode-emoji-code#readme):** - Allows emoji use in markdown. 
+* **[FavIcon- Instructions](https://www.youtube.com/watch?v=pA8103S-yqk):** - Allowed me to add a FavIcon to my site.
+* **[FavIcon- Converter](https://www.icoconverter.com/):** - Allowed me to Convert my 16x16px photoshop image to a .ico file.
+
 
 ### **Thanks** 
 
