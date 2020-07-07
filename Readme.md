@@ -195,6 +195,11 @@ ___
 * Navigation is structured from level of importance left to right. 
 * Services section utilises bootstrap cards which display image and content relevant to the user is looking for.
 
+### **_Code Refactoring_:** 
+___
+In this project i also used the extension to Gitpod called prettier which would format my code, however i then went through each page 
+and ensured there were no excess lines of whitespace. I also chose a uniformed way of commenting display, whereby i left a line gap either side of my comments so that people can distinguish between code blocks. I feel it was just a neat way to format my comments. 
+
 
 ## 🧪 **Testing:**
 ___
@@ -351,6 +356,8 @@ ___
 The content for the website was taken from an old version of https://musicproductionservice.com my own business website which was rebuilt for this project.
 So all text and information pertaining to my services is of my own work.
 
+* I may add that in the copyright section of my site i name that this site is part of **VUHZE** technologies - this is for future development of my company i have started no data or infomation has been taken from there as i have just created this company.
+
 ### **Media - images** 
 Over the course of my project i used various sources for media - 
 
@@ -414,5 +421,3 @@ ul {
 ```
 
 _**Finally to my girlfriend who has allowed me to work day and night on this project. Who gave birth to our second child my daughter Abbie only a month ago, who i could thank for not being too bad on night feeds and also my son Alfie who sleeps all night now. If not i think i would have crashed due to lack of sleep.**_ 🥰
-
-
